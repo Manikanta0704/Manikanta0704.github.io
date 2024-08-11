@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            width: 400px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .login-container h1 {
+            color: #1877f2;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .login-container button {
+            width: 100%;
+            background-color: #1877f2;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .login-container button:hover {
+            background-color: #165eab;
+        }
+
+        .login-container .forgot-password {
+            display: block;
+            margin-top: 10px;
+            color: #1877f2;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .login-container .forgot-password:hover {
+            text-decoration: underline;
+        }
+
+        .login-container .signup {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .login-container .signup a {
+            color: #1877f2;
+            text-decoration: none;
+        }
+
+        .login-container .signup a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>facebook</h1>
+        <input type="text" placeholder="Email address or phone number">
+        <input type="password" placeholder="Password">
+        <button>Log In</button>
+        <a href="#" class="forgot-password">Forgotten account?</a>
+        <div class="signup">
+            <span>or</span>
+            <a href="#">Sign up for Facebook</a>
+        </div>
+    </div>
+</body>
+</html>

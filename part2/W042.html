@@ -5,28 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .hero-image{
-            background: url(/Image/1.jpg) no-repeatcenter;
-            background-size: cover;
-            height: 400px;
-            position: relative;
+        body{
+            background-color: rgb(93, 93, 222);
         }
-        .hero-text{
-            text-align: center;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
+        *{
+            padding: 0;
+            margin: 0;
             color: white;
         }
+        #navbar{
+            height: 60px;
+            background-color: black;
+            border-color: white;
+            border-width: 10px;
+            border-style: solid;
+            border-radius: 10px;
+        }
+        button{
+            background-color: black;
+            margin-left: 100px;
+        }
+        #logo{
+            color: yellow;
+        }
+        a{
+            margin-right: 150px;
+        }
+        
     </style>
 </head>
 <body>
-    <div class="hero-image">
-        <div class="hero-text">
-            my application
-        </div>
-    </div>
     
+    <div id="navbar">
+        <a id="logo" href="#">amazon.in</a>
+        <a href="#">Account</a>
+        <a href="#">My Cart</a>
+        <a href="#">Contact Us</a>
+         
+            <input placeholder="search Amazon.in">
+            <button>Search</button>
+
+
+    </div>
 </body>
 </html>
